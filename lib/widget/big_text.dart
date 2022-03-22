@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
 class BigText extends StatelessWidget {
-  final double fontSize;
-  final TextAlign? textAlign;
+  final String text;
   final Color? color;
+  final TextAlign? textAlign;
+  final Size? textSize;
 
-  const BigText({Key? key, required this.fontSize, this.textAlign, this.color})
+  const BigText({Key? key, required this.text, this.textSize, this.textAlign, this.color})
       : super(key: key);
 
   @override

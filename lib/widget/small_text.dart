@@ -4,6 +4,7 @@ class SmallText extends StatelessWidget {
   final String text;
   final Color? color;
   final TextAlign? textAlign;
+  
 
   SmallText({Key? key, required this.text, this.color, this.textAlign})
       : super(key: key);
